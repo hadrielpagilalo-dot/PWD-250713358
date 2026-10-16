@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(14, 51, 0);
+    min-height: 100vh;
+    margin:0;
+}
+
+#p {
+    box-shadow: 0 0.5px 1px 0 rgb(28, 211, 40);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px 30px 5px 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(201, 25, 175);
+    text-align: center;
+}
+
+#h1 {
+    text-align: center;
+    background-color: rgb(128, 19, 183);
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -20px;
+    padding: 20px 0;
+    color: white;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(194, 183, 18);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition: all 0.2s linear;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(22, 220, 220);
+}
+
+.link:hover {
+    background-color: rgb(191, 19, 19);
+    a {
+        color: white;
+    } 
+    transform: scale(1.05);
+}
