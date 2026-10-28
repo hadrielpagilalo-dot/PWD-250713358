@@ -1,0 +1,83 @@
+body {
+    font-family: 'VT323', monospace;
+    background-color: #bcecc0;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #176b5b;
+    margin-bottom: 25px;
+}
+
+
+h2 {
+    max-width: 800px;
+    margin: 25px auto 10px;
+    color: #176b5b;
+    font-size: 19px;
+}
+
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #02921f;
+    border-collapse: collapse;
+    border: 1px solid #cbd5e1;
+}
+
+
+td {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+}
+
+
+label {
+    font-size: 14px;
+}
+
+
+input[type="text"],
+select,
+textarea {
+    font-family: 'VT323', monospace;
+    width: 95%;
+    padding: 9px;
+    border: 1px solid #b8c4d1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 6px;
+}
+
+input[type="file"] {
+    font-family: 'VT323', monospace;
+}
+
+
+p {
+    margin: 8px 0;
+}
+
+
+input[type="submit"] {
+    background-color: #137129;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #082621;
+}

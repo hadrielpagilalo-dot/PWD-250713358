@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Organisasi</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Beasiswa</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <table cellspacing="4" cellpadding="4" border="1"
+                style="border-collapse:collapse; width:100%;">
+            <tr>
+                <td>
+                    <label for="nama"><strong>Nama Lengkap</strong></label>
+                </td>
+                <td><input type="text" id="nama" name="nama" size="30" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nik"><strong>NIK</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="nik" name="nik" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="prvinsi"><strong>Asal Kota</strong>
+                    </label>
+                </td>
+                <td>
+                    <select id="prvinsi" name="prvinsi">
+                        <option>Sumatera</option>
+                        <option>Seoulawesi</option>
+                        <option>Kalimantan</option>
+                        <option>Jawa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email"><strong>Alamat Email</strong></label>
+                </td>
+                <td><input type="text" id="email" name="email" size="30" /></td>
+            </tr>
+            <tr>
+                <td><label for="telepon"><strong>Nomor Telepon</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="telepon" name="telepon" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Jenis Kelamin</strong>
+                </td>
+                <td>
+                    <input type="radio" id="laki" name="jk" value="Laki-Laki" />
+                    <label for="laki">Laki-Laki</label>
+
+                    <input type="radio" id="perempuan" name="jk" value="Perempuan" />
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="semester"><strong>Semester</strong></label>
+                </td>
+                <td>
+                    <select id="semester" name="semester">
+                        <option>Semester 1</option>
+                        <option>Semester 2</option>
+                        <option>Semester 3</option>
+                        <option>Semester 4</option>
+                        <option>Semester 5</option>
+                        <option>Semester 6</option>
+                        <option>Semester 7</option>
+                        <option>Semester 8</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;">
+                    <label for="alasan"><strong>Alamat Lengkap</strong></label>
+                </td>
+                <td>
+                    <textarea id="alasan" name="alasan"
+                            rows="8" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cv"><strong>Upload KTP</strong></label>
+                </td>
+                <td>
+                    <input type="file" id="cv" name="cv"
+                            accept="application/pdf" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" name="daftar" value="Daftar" />
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>
