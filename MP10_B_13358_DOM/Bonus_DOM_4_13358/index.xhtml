@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="js/acSetter.js"></script>
+    <title>Bonus - Simulasi Remote AC</title>
+</head>
+
+<body>
+    <h3>Simulasi Remote AC &amp; Suhu Ruangan (DOM)</h3>
+
+    <div id="panelAC"
+         style="width: 280px; padding: 20px; border: 2px solid black;
+         background-color: #e0f7fa; text-align: center;">
+
+        <p>
+            Suhu Target:
+            <span id="angkaSuhu">24</span> &deg;C
+        </p>
+
+        <p id="modeCuaca">Mode: Sejuk Normal</p>
+    </div>
+
+    <p>
+        <input type="button" value="- Turunkan Suhu"
+        onclick="ubahSuhu(-1)" />
+
+        <input type="button" value="+ Naikkan Suhu"
+        onclick="ubahSuhu(1)" />
+
+        <input type="button" value="Mode Hujan (Auto 22°C)"
+        onclick="setModeHujan()" />
+    </p>
+</body>
+
+</html>
